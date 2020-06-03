@@ -1,7 +1,7 @@
-## cloudformation-stakc-remover
+# cloudformation-stakc-remover
 ## About Serverless function
-This is serverless lambda fucntion written using Python to Delete the stacks if its more than 14 days old.
-A CloudWatch event triggers a Lambda which will retrieve a list of all stacks.
+    This is serverless lambda fucntion written using Python to Delete the stacks if its more than 14 days old.
+    A CloudWatch event triggers a Lambda which will retrieve a list of all stacks.
 
 ## The criteria to delete a stack are:
     
